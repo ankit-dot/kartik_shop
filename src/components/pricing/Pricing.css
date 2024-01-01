@@ -1,0 +1,72 @@
+.pricing_heading {
+   
+    
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 3rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .pricing_heading_text1 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background: linear-gradient(92.57deg, #7a76fc 31.91%, #61a4eb 88%);
+  
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    box-shadow: 0 8px 8px rgba(99, 106, 126, 0.02),
+      0 4px 4px rgba(99, 106, 126, 0.03), 0 1px 1px rgba(99, 106, 126, 0.04);
+    color: transparent;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .pricing_heading_text2 {
+    font-size: 3.75rem;
+    line-height: 1;
+    color: rgba(24, 36, 48, 1);
+    font-weight: 700;
+    padding-top: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+
+  .pricing_heading_text2_blue {
+    background: linear-gradient(
+      to right,
+      #7a76fc 20%,
+      /* Added comma here */ #61a4eb 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .pricing_heading {
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: rgba(49, 67, 89, 1);
+  }
+
+  .pricingGradient {
+    background: linear-gradient(93deg,#9076fc 16%,#61cfeb 88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pricingButton {
+  border-radius: 48px;
+  border: 1px solid var(#e5f2ff);
+  box-shadow: 0 2px 6px 0 rgba(39,57,147,.1);
+}

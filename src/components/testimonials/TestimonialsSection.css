@@ -1,0 +1,26 @@
+.badgeGradientText {
+    background: linear-gradient(92.57deg,#7a76fc 31.91%,#61a4eb 88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.badgeBoxShadow {
+    box-shadow: 0 8px 8px rgba(99,106,126,.02), 0 4px 4px rgba(99,106,126,.03), 0 1px 1px rgba(99,106,126,.04);
+}
+
+.text-gradient {
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+    --tw-gradient-from: #7a76fc var(--tw-gradient-from-position);
+    --tw-gradient-to: rgba(122,118,252,0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: #61a4eb var(--tw-gradient-to-position);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.text-iso-gray-light {
+    --tw-text-opacity: 1;
+    color: rgb(49 67 89/var(--tw-text-opacity));
+}
