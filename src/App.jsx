@@ -7,6 +7,8 @@ import About from "./components/about/About";
 import Pricing from "./components/pricing/Pricing";
 import TestimonialsSection from "./components/testimonials/TestimonialsSection";
 import FooterComponent from "./components/footer/Footer";
+import ContactPage from "./components/contactPage/ContactPage";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +22,7 @@ function App() {
       <About />
       <Pricing/>
       <TestimonialsSection/>
+      <ContactPage/>
       <FooterComponent/>
     </>
   );
