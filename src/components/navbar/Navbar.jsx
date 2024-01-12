@@ -3,7 +3,7 @@ import "./Navbar.css"
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 function Navbar() {
   return (
-    <Router>
+    
     <div className='header'>
         <nav className="navbar">
             <div className="nav-content">
@@ -21,7 +21,7 @@ function Navbar() {
             </div>
         </nav>
     </div>
-    </Router>
+    
   )
 }
 
