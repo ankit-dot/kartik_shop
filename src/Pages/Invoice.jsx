@@ -1,42 +1,18 @@
-import React from 'react'
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import Container from "react-bootstrap/Container";
+import InvoiceForm from "../invoiceComponent/InvoiceForm";
 
 
 function Invoice() {
-  return (
-    <main>
-    {/* Header*/}
-      <header>
-        <div> <h2>Invoicer</h2></div>
-        <div>
-          <ul>
-            <li>
-                Print
-            </li>
-            <li>
-                Download
-            </li>
-            <li>
-                Send
-            </li>
-          </ul>
-        </div>
-      </header>
-
-
-      {/* End of Header*/}
-
-
-{/* Your details*/}
-
-      <section>
-        <input type="text" name="text" id="text" placeholder = "Enter your name" />
-      </section>
-
-
-{/* End of Your details*/}
-
-    </main>
-  )
+  return(
+  <div className="App d-flex flex-column align-items-center justify-content-center w-100">
+    <Container>
+      <InvoiceForm />
+    </Container>
+  </div>
+  );
 }
 
-export default Invoice
+export default Invoice;
