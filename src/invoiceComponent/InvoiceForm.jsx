@@ -309,22 +309,8 @@ function InvoiceForm() {
                     {subTotal}
                   </span>
                 </div>
-                <div className="d-flex flex-row align-items-start justify-content-between mt-2">
-                  <span className="fw-bold">Discount:</span>
-                  <span>
-                    <span className="small ">({discountRate || 0}%)</span>
-                    {currency}
-                    {discountAmount || 0}
-                  </span>
-                </div>
-                <div className="d-flex flex-row align-items-start justify-content-between mt-2">
-                  <span className="fw-bold">Tax:</span>
-                  <span>
-                    <span className="small ">({taxRate || 0}%)</span>
-                    {currency}
-                    {taxAmount || 0}
-                  </span>
-                </div>
+               
+                
                 <hr />
                 <div
                   className="d-flex flex-row align-items-start justify-content-between"
