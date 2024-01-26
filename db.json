@@ -1,0 +1,52 @@
+{
+  "order": [
+    {
+      "id": "1",
+      "name": "kartik rajak",
+      "item": "shirt",
+      "service": "drycleaning",
+      "status": "inProgress"
+    },
+    {
+      "id": "2",
+      "name": "kartik rajak",
+      "item": "shirt",
+      "service": "drycleaning",
+      "status": "inProgress"
+    },
+    {
+      "id": "3",
+      "name": "kartik rajak",
+      "item": "shirt",
+      "service": "drycleaning",
+      "status": "inProgress"
+    },
+    {
+      "id": "4",
+      "name": "kartik rajak",
+      "item": "shirt",
+      "service": "drycleaning",
+      "status": "inProgress"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "kartik rajak",
+      "address": "shastri Nagar",
+      "email": "heelkartikrajak625@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "kartik rajak",
+      "address": "shastri Nagar",
+      "email": "heelkartikrajak625@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "kartik rajak",
+      "address": "shastri Nagar",
+      "email": "heelkartikrajak625@gmail.com"
+    }
+  ]
+}
